@@ -1,0 +1,49 @@
+# Environment variables and secrets
+.env
+client_secrets.json
+cleint_secrets.json
+youtube_token.pickle
+*client_secret*.json
+
+# Virtual environments
+venv/
+venv_*/
+
+# Model checkpoints and large binaries
+*.onnx
+*.pth
+*.bin
+*.m4a
+openvoice_checkpoints/
+
+# Python caching
+__pycache__/
+*.pyc
+
+# Local JSON state files
+*state.json
+
+# Local output folders and media
+output/
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+
+# Scratch and temp files
+scratch/
+*.log
+*TEMP_MPY*
+kokoro-v1.0.onnx
+
+# OAuth tokens / pickled credentials (token.pickle was tracked until 2026-09-25)
+*.pickle
+
+# Generated scratch data
+all_titles.txt
+trend_scan_*.json
+trending_sports_*.json
+yt_automation/free_credit_ledger.json.lock
+yt_automation/free_credit_ledger.json.tmp
