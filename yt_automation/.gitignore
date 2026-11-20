@@ -1,0 +1,26 @@
+# Environment variables and secrets
+.env
+client_secrets.json
+youtube_token.pickle
+*client_secret*.json
+
+# Python caching
+__pycache__/
+*.pyc
+
+# Local JSON state files
+*state.json
+
+# Local output folders and media
+output/
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+
+# Scratch and temp files
+scratch/
+*.log
+*TEMP_MPY*
